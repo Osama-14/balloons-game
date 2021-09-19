@@ -11,9 +11,9 @@ function login() {
   const password = document.getElementById("password").value;
 
 
-  firebase
-    .auth()
-    .signInWithEmailAndPassword(email, password)
+
+
+  firebase.auth().signInWithEmailAndPassword(email, password)
     .then((userCredential) => {
       const user = userCredential.user;
       location.replace("welcome.html");

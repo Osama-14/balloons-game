@@ -47,7 +47,7 @@ function checkAllPopped(){
     if (popped === 6){
         let gallery = document.querySelector('#balloon-gallery');
         let message = document.getElementById('wellplayed');
-        gallery.innerHTML = 'Move To Next Level'
+        gallery.innerHTML = 'Click On Level2'
         message.style.display = 'block';
     }
 };
